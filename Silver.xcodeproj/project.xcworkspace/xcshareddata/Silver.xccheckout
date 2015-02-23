@@ -10,6 +10,8 @@
 	<string>Silver</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>3271D2022663C9C526078BC16A8052613CC3151C</key>
+		<string>https://github.com/SidneyDuarte/Desafio.git</string>
 		<key>7BF5B770FA4195C153AD521416F07F83D649A89F</key>
 		<string>https://github.com/SidneyDuarte/Silver.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Silver.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>3271D2022663C9C526078BC16A8052613CC3151C</key>
+		<string>../../..</string>
 		<key>7BF5B770FA4195C153AD521416F07F83D649A89F</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>7BF5B770FA4195C153AD521416F07F83D649A89F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3271D2022663C9C526078BC16A8052613CC3151C</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

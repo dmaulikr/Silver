@@ -26,7 +26,7 @@
                  @"what's your quest?",
                  @"What's the capital of Assyria?"];
     resposta = @[@"Sir Robbin of Camelot",
-                 @"I seek the Grail",
+                 @"To seek the Holy Grail",
                  @"I... I don't know that... NO!! GAAAAHH"];
     _contador = 0;
     _controlador = 0;
@@ -44,18 +44,27 @@
 
 - (IBAction)perguntaButton:(id)sender {
     [perguntaLabel setText:pergunta[_contador]];
+    [respostaLabel setText:@""];
     _controlador++;
+    
+    _img = [UIImage imageNamed:@"bridgekeeper.jpg"];
+    
+    [imagem setImage:_img];
+    
 }
 
 - (IBAction)respostaButton:(id)sender {
-    [respostaLabel setText:resposta[_contador]];
+    if (_controlador > _contador) {
+        [respostaLabel setText:resposta[_contador]];
+        _contador++;
+    }
     
-    if (_contador == 0) {
+    if (_contador == 1) {
         _img = [UIImage imageNamed:@"sirRobin1.jpg"];
         
         [imagem setImage:_img];
         
-    }else if (_contador == 1){
+    }else if (_contador == 2){
         _img = [UIImage imageNamed:@"sirRobin2.jpg"];
         
         [imagem setImage:_img];
@@ -65,9 +74,6 @@
         [imagem setImage:_img];
     }
     
-    if (_controlador > _contador) {
-        _contador++;
-    }
     
     if (_contador > 2) {
         _contador = 0;
