@@ -29,6 +29,7 @@
                  @"I... I don't know that... NO!! GAAAAHH"];
     _contador = 0;
     _controlador = 0;
+    self.view.backgroundColor = [UIColor colorWithRed:200/255.0 green:250/255.0 blue:233/255.0 alpha:1];
 }
 
 - (void)didReceiveMemoryWarning {
