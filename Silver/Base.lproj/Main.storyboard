@@ -46,13 +46,22 @@
                                     <action selector="respostaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcb-Cf-gqk"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uym-kA-dAZ">
+                                <rect key="frame" x="180" y="434" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HOc-xB-qcp"/>
+                                    <constraint firstAttribute="height" constant="128" id="WuP-Gc-oqZ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="6sl-hC-UyU" secondAttribute="centerX" constant="6.5" id="DrO-kO-lqq"/>
                             <constraint firstItem="OMz-7r-rXC" firstAttribute="top" secondItem="Nfc-al-5gc" secondAttribute="bottom" constant="53" id="HzR-g4-Js3"/>
+                            <constraint firstAttribute="centerX" secondItem="Uym-kA-dAZ" secondAttribute="centerX" id="XdD-pD-XAM"/>
                             <constraint firstAttribute="centerX" secondItem="OMz-7r-rXC" secondAttribute="centerX" constant="6.5" id="eTv-lJ-ZfU"/>
                             <constraint firstAttribute="centerX" secondItem="fmX-o0-uxM" secondAttribute="centerX" constant="6.5" id="jqe-Ni-vWN"/>
+                            <constraint firstItem="Uym-kA-dAZ" firstAttribute="top" secondItem="OMz-7r-rXC" secondAttribute="bottom" constant="28" id="nyv-7L-kZ0"/>
                             <constraint firstAttribute="centerX" secondItem="Nfc-al-5gc" secondAttribute="centerX" constant="6.5" id="onr-hK-idY"/>
                             <constraint firstItem="6sl-hC-UyU" firstAttribute="top" secondItem="fmX-o0-uxM" secondAttribute="bottom" constant="79" id="sBK-oG-MGh"/>
                             <constraint firstItem="fmX-o0-uxM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="v95-lo-keu"/>
@@ -60,6 +69,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imagem" destination="Uym-kA-dAZ" id="asL-m0-EgA"/>
                         <outlet property="perguntaLabel" destination="fmX-o0-uxM" id="VhW-9B-GEU"/>
                         <outlet property="respostaLabel" destination="Nfc-al-5gc" id="SJ1-L4-uGG"/>
                     </connections>

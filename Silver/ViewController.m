@@ -17,6 +17,7 @@
 @synthesize resposta;
 @synthesize perguntaLabel;
 @synthesize respostaLabel;
+@synthesize imagem;
 
 
 - (void)viewDidLoad {
@@ -31,6 +32,9 @@
     _controlador = 0;
     self.view.backgroundColor = [UIColor colorWithRed:200/255.0 green:250/255.0 blue:233/255.0 alpha:1];
     _img = [[UIImage alloc] init];
+    _img = [UIImage imageNamed:@"bridgekeeper.jpg"];
+    
+    [imagem setImage:_img];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,11 +51,18 @@
     [respostaLabel setText:resposta[_contador]];
     
     if (_contador == 0) {
-        _img = [UIImage imageNamed:@"hqdefault.jpg"];
+        _img = [UIImage imageNamed:@"sirRobin1.jpg"];
+        
+        [imagem setImage:_img];
+        
     }else if (_contador == 1){
-        //img = [UIImage imageNamed:<#(NSString *)#>];
+        _img = [UIImage imageNamed:@"sirRobin2.jpg"];
+        
+        [imagem setImage:_img];
     }else{
-         //img = [UIImage imageNamed:<#(NSString *)#>];
+        _img = [UIImage imageNamed:@"sirRobin3.jpg"];
+        
+        [imagem setImage:_img];
     }
     
     if (_controlador > _contador) {

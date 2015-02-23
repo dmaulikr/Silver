@@ -14,6 +14,11 @@
 		848494E51A9B66B6001274CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848494E41A9B66B6001274CB /* Images.xcassets */; };
 		848494E81A9B66B6001274CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848494E61A9B66B6001274CB /* LaunchScreen.xib */; };
 		848494F41A9B66B6001274CB /* SilverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848494F31A9B66B6001274CB /* SilverTests.m */; };
+		848494FE1A9B7CE2001274CB /* sirRobin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848494FD1A9B7CE2001274CB /* sirRobin1.jpg */; };
+		848495001A9B7CEA001274CB /* sirRobin3.png in Resources */ = {isa = PBXBuildFile; fileRef = 848494FF1A9B7CEA001274CB /* sirRobin3.png */; };
+		848495021A9B7CF8001274CB /* sirRobin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848495011A9B7CF8001274CB /* sirRobin2.jpg */; };
+		848495041A9B7CFD001274CB /* Bridgekeeper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848495031A9B7CFD001274CB /* Bridgekeeper.jpg */; };
+		848495061A9B7DE1001274CB /* sirRobin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848495051A9B7DE1001274CB /* sirRobin3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		848494ED1A9B66B6001274CB /* SilverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848494F21A9B66B6001274CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848494F31A9B66B6001274CB /* SilverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilverTests.m; sourceTree = "<group>"; };
+		848494FD1A9B7CE2001274CB /* sirRobin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sirRobin1.jpg; sourceTree = "<group>"; };
+		848494FF1A9B7CEA001274CB /* sirRobin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sirRobin3.png; sourceTree = "<group>"; };
+		848495011A9B7CF8001274CB /* sirRobin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sirRobin2.jpg; sourceTree = "<group>"; };
+		848495031A9B7CFD001274CB /* Bridgekeeper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridgekeeper.jpg; sourceTree = "<group>"; };
+		848495051A9B7DE1001274CB /* sirRobin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sirRobin3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 		848494D61A9B66B6001274CB /* Silver */ = {
 			isa = PBXGroup;
 			children = (
+				848495051A9B7DE1001274CB /* sirRobin3.jpg */,
+				848495011A9B7CF8001274CB /* sirRobin2.jpg */,
+				848495031A9B7CFD001274CB /* Bridgekeeper.jpg */,
+				848494FF1A9B7CEA001274CB /* sirRobin3.png */,
+				848494FD1A9B7CE2001274CB /* sirRobin1.jpg */,
 				848494DB1A9B66B6001274CB /* AppDelegate.h */,
 				848494DC1A9B66B6001274CB /* AppDelegate.m */,
 				848494DE1A9B66B6001274CB /* ViewController.h */,
@@ -200,8 +215,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				848494E31A9B66B6001274CB /* Main.storyboard in Resources */,
+				848494FE1A9B7CE2001274CB /* sirRobin1.jpg in Resources */,
 				848494E81A9B66B6001274CB /* LaunchScreen.xib in Resources */,
 				848494E51A9B66B6001274CB /* Images.xcassets in Resources */,
+				848495041A9B7CFD001274CB /* Bridgekeeper.jpg in Resources */,
+				848495021A9B7CF8001274CB /* sirRobin2.jpg in Resources */,
+				848495001A9B7CEA001274CB /* sirRobin3.png in Resources */,
+				848495061A9B7DE1001274CB /* sirRobin3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

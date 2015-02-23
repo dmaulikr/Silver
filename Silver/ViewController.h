@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *respostaLabel;
 - (IBAction)perguntaButton:(id)sender;
 - (IBAction)respostaButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imagem;
 
 
 @end
