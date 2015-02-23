@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface ViewController : UIViewController
+@property NSArray *pergunta;
+@property NSArray *resposta;
+@property int contador;
+@property int controlador;
+@property (weak, nonatomic) IBOutlet UILabel *perguntaLabel;
+@property (weak, nonatomic) IBOutlet UILabel *respostaLabel;
+- (IBAction)perguntaButton:(id)sender;
+- (IBAction)respostaButton:(id)sender;
 
 
 @end
