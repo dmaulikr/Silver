@@ -30,6 +30,7 @@
     _contador = 0;
     _controlador = 0;
     self.view.backgroundColor = [UIColor colorWithRed:200/255.0 green:250/255.0 blue:233/255.0 alpha:1];
+    _img = [[UIImage alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,6 +45,14 @@
 
 - (IBAction)respostaButton:(id)sender {
     [respostaLabel setText:resposta[_contador]];
+    
+    if (_contador == 0) {
+        _img = [UIImage imageNamed:@"hqdefault.jpg"];
+    }else if (_contador == 1){
+        //img = [UIImage imageNamed:<#(NSString *)#>];
+    }else{
+         //img = [UIImage imageNamed:<#(NSString *)#>];
+    }
     
     if (_controlador > _contador) {
         _contador++;

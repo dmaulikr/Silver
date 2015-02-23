@@ -15,6 +15,7 @@
 @property NSArray *resposta;
 @property int contador;
 @property int controlador;
+@property UIImage *img;
 @property (weak, nonatomic) IBOutlet UILabel *perguntaLabel;
 @property (weak, nonatomic) IBOutlet UILabel *respostaLabel;
 - (IBAction)perguntaButton:(id)sender;
